@@ -16,7 +16,7 @@ UserName = "김카힐" #이름
 BirthDate = "000000" #생년월일
 Password = "1234" #비밀번호
 
-subprocess.Popen(chromePath + ' --remote-debugging-port=9222 --user-data-dir="' + chromeTemp + '" --headless https://hcs.eduro.go.kr/#/relogin')
+subprocess.Popen(chromePath + ' --remote-debugging-port=9222 --user-data-dir="' + chromeTemp + '" https://hcs.eduro.go.kr/#/relogin')
 option = Options()
 option.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
 driver = webdriver.Chrome(webdriverPath, options=option)
