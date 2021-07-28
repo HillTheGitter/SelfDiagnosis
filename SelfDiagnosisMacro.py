@@ -75,4 +75,4 @@ for i in range(1, 4):
 driver.find_element_by_id('btnConfirm').click()
 
 print("자가진단을 완료했습니다")
-driver.quit()
+driver.close()
