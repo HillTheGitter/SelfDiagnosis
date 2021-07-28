@@ -66,7 +66,7 @@ driver.find_element_by_id('btnConfirm').click()
 
 #사용자 계정 선택 화면
 sleep(1.5)
-driver.find_element_by_css_selector("#container > div > section.memberWrap > div:nth-child(2) > ul > li > a > em").click()
+driver.find_element_by_xpath(f"//*[contains(text(), '{UserName}')]").click()
 
 #질문 응답 화면
 for i in range(1, 4):
