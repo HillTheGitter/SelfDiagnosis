@@ -18,7 +18,7 @@
 
 설치가 완료되었다면 cmd를 켜고 pip install selenium를 입력해 설치가 완료될 때까지 기다려주세요.
 
-> https://sites.google.com/a/chromium.org/chromedriver/downloads
+> https://sites.google.com/chromium.org/driver/
 
 위 링크에서 본인의 크롬 버전과 OS에 맞는 웹드라이버를 다운로드해주세요.
 
